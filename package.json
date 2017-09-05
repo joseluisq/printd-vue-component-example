@@ -1,0 +1,45 @@
+{
+  "name": "printd-vue-component-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "lint": "node node_modules/tslint/bin/tslint --format stylish --project tsconfig.json --type-check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluisq/printd-vue-component-example.git"
+  },
+  "author": "José Luis Quintana <joseluisquintana20@gmail.com> (https://git.io/joseluisq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseluisq/printd-vue-component-example/issues"
+  },
+  "homepage": "https://github.com/joseluisq/printd-vue-component-example#readme",
+  "dependencies": {
+    "printd": "^0.0.7",
+    "vue": "^2.4.2",
+    "vue-class-component": "^5.0.2",
+    "vue-template-compiler": "^2.4.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.4",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.5.2",
+    "vue-loader": "^13.0.4",
+    "vue-typescript-import-dts": "^3.1.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.7.0"
+  }
+}
