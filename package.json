@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/joseluisq/printd-vue-component-example#readme",
   "dependencies": {
-    "printd": "^0.0.7",
+    "printd": "^0.0.8",
     "vue": "^2.4.2",
     "vue-class-component": "^5.0.2",
     "vue-template-compiler": "^2.4.2"

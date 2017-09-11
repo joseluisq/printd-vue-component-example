@@ -51,7 +51,10 @@ export default class App extends Vue {
 
   print (): void {
     const printd: Printd = new Printd()
-    printd.print(this.$el, this.cssText)
+
+    printd.print(this.$el, this.cssText, (win) => {
+      win.print()
+    })
   }
 
 }
