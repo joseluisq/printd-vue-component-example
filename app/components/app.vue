@@ -3,8 +3,10 @@
     <h1>Printd example</h1>
 
     <p>
-      This is an <b>example!</b> using a <a href="https://vuejs.org/">VueJS</a> <em>component</em>.
+      This is an <b>example!</b> using a <a href="https://vuejs.org/" target="_blank">VueJS</a> <em>component</em>.
     </p>
+  
+    <a href="https://vuejs.org/" target="_blank"><img src="https://vuejs.org/images/logo.png" width="140" height="140"></a>
 
     <pre>
       import Printd from 'printd'
@@ -26,6 +28,8 @@ import { Printd } from 'printd'
 
 @Component
 export default class App extends Vue {
+
+  private d: Printd = new Printd()
 
   cssText: string = `
     .box {
@@ -50,11 +54,7 @@ export default class App extends Vue {
   `
 
   print (): void {
-    const printd: Printd = new Printd()
-
-    printd.print(this.$el, this.cssText, (win) => {
-      win.print()
-    })
+    this.d.print(this.$el, this.cssText)
   }
 
 }

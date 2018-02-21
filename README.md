@@ -23,4 +23,4 @@ Feel free to send some [Pull request](https://github.com/joseluisq/printd/pulls)
 ## License
 MIT license
 
-© 2017 [José Luis Quintana](http://git.io/joseluisq)
+© 2018 [José Luis Quintana](http://git.io/joseluisq)
