@@ -36,7 +36,7 @@
     "vue-template-compiler": "^2.5.13",
     "vue-typescript-import-dts": "^3.1.1",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": ">=3.1.11"
   },
   "peerDependencies": {
     "tslint": "^5.9.1"
